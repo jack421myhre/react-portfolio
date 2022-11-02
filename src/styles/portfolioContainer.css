@@ -1,8 +1,7 @@
-#root {
+.portfolio-container {
     background-color: #49475B;
     color: #fff;
     font-family: 'Work Sans', sans-serif;
-    height: 100vh;
 }
 
 /* FONTS */
@@ -13,7 +12,7 @@ h2 {
 }
 
 h1 {
-    font-size: 120px;
+    font-size: 82px;
 }
 
 h2 {
@@ -23,4 +22,3 @@ h2 {
 p {
     font-size: 18px;
 }
-
