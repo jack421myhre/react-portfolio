@@ -2,8 +2,22 @@
     width: 24rem;
     color: #000;
     margin: 12px;
+    min-height: 340px;
 }
 
 .work-container {
-    margin-top: 100px;
+    margin-top: 80px;
+}
+
+.section-title {
+    margin-bottom: 40px;
+}
+
+.github-logo {
+    color: #000;
+}
+
+.github-logo:hover {
+    color: #49475B;
+
 }
