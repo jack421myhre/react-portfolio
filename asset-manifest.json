@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.f496fdad.css",
+    "main.js": "/react-portfolio/static/js/main.738034d2.js",
+    "static/media/brewViewSnap.png": "/react-portfolio/static/media/brewViewSnap.cc563657fce97f0fe10e.png",
+    "static/media/teamSpeakSnap.png": "/react-portfolio/static/media/teamSpeakSnap.8d5c2f53e57b62c9cb44.png",
+    "static/media/professionalHeadshot.jpg": "/react-portfolio/static/media/professionalHeadshot.aeec2d0046c016d4d5cc.jpg",
+    "static/media/Resume-Jackson-Myhre.pdf": "/react-portfolio/static/media/Resume-Jackson-Myhre.e2c1a44e1d75041a91e7.pdf",
+    "static/media/commitClockSnap.png": "/react-portfolio/static/media/commitClockSnap.2a8205062432cd17f129.png",
+    "static/media/textEditorSnap.png": "/react-portfolio/static/media/textEditorSnap.19f7bac49f955f14b6a5.png",
+    "static/media/pGenSnap.png": "/react-portfolio/static/media/pGenSnap.54e80cdea3832bd70995.png",
+    "static/media/noteTakerSnap.png": "/react-portfolio/static/media/noteTakerSnap.a4975fe2e1f074d00b17.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.f496fdad.css.map": "/react-portfolio/static/css/main.f496fdad.css.map",
+    "main.738034d2.js.map": "/react-portfolio/static/js/main.738034d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f496fdad.css",
+    "static/js/main.738034d2.js"
+  ]
+}
