@@ -6,7 +6,8 @@
 
 /* FONTS */
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Permanent Marker', cursive;
     color: #91F5AD;
 }
@@ -21,4 +22,8 @@ h2 {
 
 p {
     font-size: 18px;
+}
+
+li {
+    font-size: 18px
 }

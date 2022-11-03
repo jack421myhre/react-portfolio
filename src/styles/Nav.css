@@ -1,4 +1,9 @@
-.nav-item {
+.nav-item a {
     color: #fff;
+}
+
+.nav-item a:hover {
+    color: #91F5AD;
+    
 }
 

@@ -14,7 +14,7 @@ function Work() {
     return (
         <div>
             <div className='d-flex flex-column align-items-center work-container'>
-                <div className='section-title'>
+                <div className='work-title'>
                     <h1>My Work</h1>
                 </div>
                 <div className='d-flex flex-row justify-content-center'>

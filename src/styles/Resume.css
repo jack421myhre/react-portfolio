@@ -1,0 +1,20 @@
+.resume-title {
+    margin-top: 80px;
+}
+
+.resume-skills {
+    padding: 24px;
+}
+
+.resume-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.resume-link:hover {
+    color: #91F5AD;
+}
+
+.resume-link:active {
+    color: #91F5AD;
+}
