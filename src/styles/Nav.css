@@ -1,19 +1,33 @@
 .nav-item a {
     color: #fff;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .nav-item a:hover {
     color: #91F5AD;
-
+    cursor: pointer;
 }
 
 .nav-container {
     padding: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-name {
     font-size: 42px;
     font-family: 'Permanent Marker', cursive;
     color: #91F5AD;
+}
+
+.nav-name:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-container {
+        flex-direction: column;
+    }
 }

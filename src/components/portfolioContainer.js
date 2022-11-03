@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import NavLinks from './NavLinks';
 import Home from './pages/Home';
-import About from './pages/About';
 import Contact from './pages/Contact';
 import Work from './pages/Work';
 import Resume from './pages/Resume';
+import Footer from './Footer';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
@@ -14,9 +14,6 @@ export default function PortfolioContainer() {
     const renderPage = () => {
         if (currentPage === 'Home') {
             return <Home />;
-        }
-        if (currentPage === 'About') {
-            return <About />;
         }
         if (currentPage === 'Work') {
             return <Work />;
@@ -30,13 +27,11 @@ export default function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div className='portfolio-container'>
-            {/* // TODO: Add a comment describing what we are passing as props */}
-            {/* currentPage value and function to change the page */}
+        <div className='d-flex flex-column justify-content-between portfolio-container'>
+
             <NavLinks currentPage={currentPage} handlePageChange={handlePageChange} />
-            {/* // TODO: Add a comment explaining what is happening on the following line */}
-            {/* calling the renderPage function select the currentPage */}
             {renderPage()}
+            <Footer />
         </div>
     );
 }

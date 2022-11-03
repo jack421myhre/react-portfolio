@@ -3,7 +3,7 @@ import '../styles/Nav.css';
 
 function NavLinks({ currentPage, handlePageChange }) {
     return (
-        <div className='d-flex flex-row justify-content-between align-items-center nav-container'>
+        <div className='nav-container'>
             <div>
                 <a
                     href="#home"
@@ -14,15 +14,6 @@ function NavLinks({ currentPage, handlePageChange }) {
                 </a>
             </div>
             <ul className="nav">
-                <li className="nav-item">
-                    <a
-                        href="#about"
-                        onClick={() => handlePageChange('About')}
-                        className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-                    >
-                        About
-                    </a>
-                </li>
                 <li className="nav-item">
                     <a
                         href="#work"

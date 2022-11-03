@@ -159,6 +159,7 @@
 .about-text {
     max-width: 600px;
     text-align: left;
+    padding: 16px;
 }
 
 .about-text p {
@@ -169,18 +170,7 @@
     width: 200px;
     height: auto;
     border-radius: 8px;
-    
+    margin-bottom: 18px;
 }
 
-.headshot-container {
-    margin-right: 40px;
-}
-
-.about-container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-/* .about-text {
-} */
 

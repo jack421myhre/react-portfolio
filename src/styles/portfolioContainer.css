@@ -27,3 +27,13 @@ p {
 li {
     font-size: 18px
 }
+
+@media screen and (max-width: 470px) {
+    h1 {
+        font-size: 64px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+}

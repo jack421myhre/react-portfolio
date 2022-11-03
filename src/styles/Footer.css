@@ -1,0 +1,28 @@
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-container {
+    padding: 20px
+}
+
+.bi-linkedin {
+    margin-right: 36px;
+    color: #fff;
+}
+
+.bi-linkedin:hover {
+    color: #91F5AD;
+    cursor: pointer;
+}
+
+.github-logo {
+    color: #fff;
+}
+
+.github-logo:hover {
+    color: #91F5AD;
+    cursor: pointer;
+}

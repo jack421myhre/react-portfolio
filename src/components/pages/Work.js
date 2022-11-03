@@ -13,11 +13,11 @@ import pGenSnap from '../../images/pGenSnap.png';
 function Work() {
     return (
         <div>
-            <div className='d-flex flex-column align-items-center work-container'>
-                <div className='work-title'>
-                    <h1>My Work</h1>
-                </div>
-                <div className='d-flex flex-row justify-content-center'>
+            <div className='d-flex flex-row justify-content-center work-title'>
+                <h1>My Work</h1>
+            </div>
+            <div className='d-md-flex flex-lg-row flex-md-column justify-content-lg-center align-items-md-center work-container'>
+                <div className=''>
                     <Project
                         name='TeamSpeak'
                         image={teamSpeakSnap}
@@ -41,7 +41,7 @@ function Work() {
                     />
                 </div>
 
-                <div className='d-flex flex-row justify-content-center'>
+                <div className=''>
                     <Project
                         name='Text Editor (PWA)'
                         image={textEditorSnap}
