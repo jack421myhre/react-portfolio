@@ -8,7 +8,7 @@ This is my portfolio powered with React and Bootstrap.
 * [Questions](#questions)
 
 ## Walkthrough (Temporary)
-[react-portfolio.webm](https://user-images.githubusercontent.com/73844213/199651623-576ef682-0ee6-49de-ab35-7a4bef040b79.webm)
+[Jackson Myhre.webm](https://user-images.githubusercontent.com/73844213/199653659-c5498af0-2405-4841-b6ce-41609041d307.webm)
 ## License
 
 http://unlicense.org/
