@@ -1,9 +1,19 @@
 .nav-item a {
     color: #fff;
+    font-size: 18px;
 }
 
 .nav-item a:hover {
     color: #91F5AD;
-    
+
 }
 
+.nav-container {
+    padding: 24px;
+}
+
+.nav-name {
+    font-size: 42px;
+    font-family: 'Permanent Marker', cursive;
+    color: #91F5AD;
+}
