@@ -18,7 +18,8 @@ function Home() {
 
                 <img className='headshot tilt-in-fwd-tr' src={headshot} alt='Professional headshot of Jackson Myhre' />
 
-                <p className='about-text text-focus-in'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p className='about-text text-focus-in'>I'm Jackson Myhre, a Chicago based Developer specializing in front-end development. Currently, I'm wrapping up the Northwestern University Full Stack Coding Bootcamp and looking to expand my knowledge of both front end and back end technologies.</p>
+                <p className='about-text text-focus-in'>Outside of development, I am a photographer and avid movie lover, rock climber, and boulderer.</p>
 
             </div>
 
