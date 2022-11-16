@@ -4,6 +4,7 @@ import '../../styles/Contact.css';
 function Contact() {
 
 
+
     return (
         <div className='d-flex flex-column align-items-center contact-container'>
             <div className='contact-title'>

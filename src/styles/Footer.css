@@ -18,11 +18,11 @@
     cursor: pointer;
 }
 
-.github-logo {
+.github-logo-footer {
     color: #fff;
 }
 
-.github-logo:hover {
+.github-logo-footer:hover {
     color: #91F5AD;
     cursor: pointer;
 }

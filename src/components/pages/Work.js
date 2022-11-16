@@ -8,7 +8,7 @@ import commitClockSnap from '../../images/commitClockSnap.png';
 import brewViewSnap from '../../images/brewViewSnap.png';
 import textEditorSnap from '../../images/textEditorSnap.png';
 import noteTakerSnap from '../../images/noteTakerSnap.png';
-import pGenSnap from '../../images/pGenSnap.png';
+import homeSnap from '../../images/Homeapp.png';
 
 function Work() {
     return (
@@ -26,11 +26,11 @@ function Work() {
                         liveLink='https://teamspeak-org.herokuapp.com/'
                     />
                     <Project
-                        name='Git Commit Clock'
-                        image={commitClockSnap}
-                        alt=''
-                        github='https://github.com/jack421myhre/commit-clock'
-                        liveLink='https://jack421myhre.github.io/commit-clock/'
+                        name='Home Maintenance Tracker'
+                        image={homeSnap}
+                        alt='Screenshot of the landing page for the Home application'
+                        github='https://github.com/RBL1992/home'
+                        liveLink='https://calm-retreat-29451.herokuapp.com/'
                     />
                     <Project
                         name='BrewView'
@@ -41,7 +41,7 @@ function Work() {
                     />
                 </div>
 
-                <div className=''>
+                <div>
                     <Project
                         name='Text Editor (PWA)'
                         image={textEditorSnap}
@@ -57,11 +57,11 @@ function Work() {
                         liveLink='https://pacific-river-52000.herokuapp.com/'
                     />
                     <Project
-                        name='Password Generator'
-                        image={pGenSnap}
-                        alt='Screenshot of the Password Generator Application'
-                        github='https://github.com/jack421myhre/03-password-generator'
-                        liveLink='https://jack421myhre.github.io/03-password-generator/'
+                        name='Git Commit Clock'
+                        image={commitClockSnap}
+                        alt='Screenshot of the Git Commit Clock Application'
+                        github='https://github.com/jack421myhre/commit-clock'
+                        liveLink='https://jack421myhre.github.io/commit-clock/'
                     />
                 </div>
             </div>
